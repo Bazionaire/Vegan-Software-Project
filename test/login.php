@@ -2,8 +2,8 @@
 session_start();
 
 // Includes
-require_once "./Database/db_connect.php";
-include "./Database/userQueries.php";
+require_once "./Database/dbconnect.php";
+include "./Database/loginphp.php";
 include "./Database/AdminSetup.php";  // DEVELOPMENT ONLY
 
 $userFeedback = null;
