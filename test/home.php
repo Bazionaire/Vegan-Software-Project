@@ -2,16 +2,9 @@
 session_start();
 ?>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Tools</title>
-        <link rel="stylesheet" href="./Assets/CSS/Style.css">
-    </head>
-    <body>
+
     <!HEADER BEGINS>
-<?php include("Includes/PageComponents/header.php"); ?>
+
     <!DOCTYPE html>
     <html lang="en">
     <head>
