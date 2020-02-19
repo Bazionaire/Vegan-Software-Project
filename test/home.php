@@ -10,7 +10,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <title>Homepage</title>
-        <link type="text/css" rel="stylesheet" href="Style.css">
+        <link type="text/css" rel="stylesheet" href="../Style.css">
     </head>
     <body class="homepage_body">
     <div class="header_homepage">
@@ -21,7 +21,7 @@ session_start();
             <li><a href="#">Recipe</a> </li>
             <li><a href="#">Products</a> </li>
             <li><a href="#">Contact Us</a> </li>
-            <li><a href="login.html">Login</a> </li>
+            <li><a href="login.php">Login</a> </li>
         </ul>
         <p id="info">
 

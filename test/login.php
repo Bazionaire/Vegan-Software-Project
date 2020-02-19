@@ -2,9 +2,9 @@
 session_start();
 
 // Includes
-require_once "./Includes/Database/db_connect.php";
-include "./Includes/Database/userQueries.php";
-include "./Includes/Utilities/AdminSetup.php";  // DEVELOPMENT ONLY
+require_once "./Database/db_connect.php";
+include "./Database/userQueries.php";
+include "./Database/AdminSetup.php";  // DEVELOPMENT ONLY
 
 $userFeedback = null;
 
