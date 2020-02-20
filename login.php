@@ -44,20 +44,25 @@ $db->close();
     <link rel="stylesheet" type="text/css" href="Style.css" >
 </head>
 <body class="login_page">
+<!HEADER BEGINS>
+
 <div class="loginbox">
     <img src="Images/computer-1331579_1280.png" class="profile">
     <h1> Login Here</h1>
+
     <form>
         <p>Username</p>
         <input type="text" name="" placeholder="Enter Username">
         <p> Password</p>
         <input type="password" name="" placeholder="Enter Password">
         <input type="submit" name="" value="Login"><br>
+
         <a href="#">Forgot your password</a> <br>
         <a href="RegistrationForm.php">Don't have an account </a>
 
     </form>
 
 </div>
+
 </body>
 </html>
