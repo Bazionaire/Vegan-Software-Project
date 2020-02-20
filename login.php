@@ -22,7 +22,7 @@ if (IsSet($_POST) && IsSet($_POST["uname"]) && IsSet($_POST["psw"])) {
         // Valid login credentials so set session variable and redirect
         $_SESSION["user"] = $username;
         $db->close();
-        header("Location: ./home.php");
+        header("Location: /home.php");
         exit();
     } else {
 

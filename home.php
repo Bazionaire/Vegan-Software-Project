@@ -12,6 +12,7 @@ session_start();
         <title>Homepage</title>
         <link type="text/css" rel="stylesheet" href="Style.css">
     </head>
+    <?php include("Loginout/Header.php"); ?>
     <body class="homepage_body">
     <div class="header_homepage">
 
@@ -56,4 +57,5 @@ session_start();
 
 
     </body>
+    <?php include("Loginout/Footer.php"); ?>
     </html>
