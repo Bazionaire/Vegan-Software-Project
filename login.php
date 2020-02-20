@@ -22,7 +22,7 @@ if (IsSet($_POST) && IsSet($_POST["uname"]) && IsSet($_POST["psw"])) {
         // Valid login credentials so set session variable and redirect
         $_SESSION["user"] = $username;
         $db->close();
-        header("Location: ./index.php");
+        header("Location: ./home.php");
         exit();
     } else {
 
@@ -45,7 +45,7 @@ $db->close();
 </head>
 <body class="login_page">
 <div class="loginbox">
-    <img src="images/computer-1331579_1280.png" class="profile">
+    <img src="Images/computer-1331579_1280.png" class="profile">
     <h1> Login Here</h1>
     <form>
         <p>Username</p>
@@ -53,8 +53,8 @@ $db->close();
         <p> Password</p>
         <input type="password" name="" placeholder="Enter Password">
         <input type="submit" name="" value="Login"><br>
-        <a href="#">Forgot your passwork</a> <br>
-        <a href="RegistrationForm.html">Don't have an account </a>
+        <a href="#">Forgot your password</a> <br>
+        <a href="RegistrationForm.php">Don't have an account </a>
 
     </form>
 
