@@ -1,6 +1,6 @@
 <?php
 
-function AdminsTableIfNeeded($db)
+function createAdminsTableIfNeeded($db)
 {
     $query = "CREATE TABLE IF NOT EXISTS admins (
                               userid int NOT NULL,

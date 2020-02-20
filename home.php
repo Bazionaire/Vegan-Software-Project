@@ -10,7 +10,7 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <title>Homepage</title>
-        <link type="text/css" rel="stylesheet" href="../Style.css">
+        <link type="text/css" rel="stylesheet" href="Style.css">
     </head>
     <body class="homepage_body">
     <div class="header_homepage">

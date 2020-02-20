@@ -3,8 +3,8 @@ session_start();
 
 // Includes
 require_once "./Database/dbconnect.php";
-include "./Database/loginphp.php";
-include "./Database/AdminSetup.php";  // DEVELOPMENT ONLY
+include "./Database/Query.php";
+include "./Database/Admin.php";  // DEVELOPMENT ONLY
 
 $userFeedback = null;
 
