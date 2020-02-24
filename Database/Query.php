@@ -15,7 +15,6 @@ function checkUserLogin($db, $username, $password)
     $return = null;
     $query = "SELECT userid FROM admins WHERE username = ? and password = ?";
     $stmt = $db->prepare($query);
-    //Prepared statement, string only
     $hashedPassword = sha1($password);
     $stmt->bind_param('ss', $username, $hashedPassword);
     $stmt->execute();

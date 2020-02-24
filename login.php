@@ -1,41 +1,33 @@
 <?php
 session_start();
 
-// Includes
+
 require_once "./Database/dbconnect.php";
 include "./Database/Query.php";
-include "./Database/Admin.php";  // DEVELOPMENT ONLY
+include "./Database/Admin.php";  
 
 $userFeedback = null;
 
-// Entry should only be from login form via POST request
+
 if (IsSet($_POST) && IsSet($_POST["uname"]) && IsSet($_POST["psw"])) {
 
-    // POST request and user has entered data in both form fields
     $username = trim($_POST['uname']);
     $password = trim($_POST['psw']);
 
-    // Data in both fields so check login credentials
     $userData = checkUserLogin($db, $username, $password);
     if ($userData != null) {
-
-        // Valid login credentials so set session variable and redirect
         $_SESSION["user"] = $username;
         $db->close();
-        header("Location: /home.php");
+        header("Location: home.php");
         exit();
     } else {
-
-        // Invalid login credentials so inform user
         $userFeedback = "Username and password did not match.";
     }
 }
 
-// Incomplete or no data in form fields
 session_destroy();
 $db->close();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,25 +36,30 @@ $db->close();
     <link rel="stylesheet" type="text/css" href="Style.css" >
 </head>
 <body class="login_page">
-<!HEADER BEGINS>
-
 <div class="loginbox">
-    <img src="Images/computer-1331579_1280.png" class="profile">
+    <img src="images/computer-1331579_1280.png" class="profile">
     <h1> Login Here</h1>
+    <?php if ($userFeedback != null) echo '<p id="feedback">' . $userFeedback . '</p>' ?>
+    <form action="" method="post">
+        <div id="contentbox" class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
 
-    <form>
-        <p>Username</p>
-        <input type="text" name="" placeholder="Enter Username">
-        <p> Password</p>
-        <input type="password" name="" placeholder="Enter Password">
-        <input type="submit" name="" value="Login"><br>
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
 
-        <a href="#">Forgot your password</a> <br>
-        <a href="RegistrationForm.php">Don't have an account </a>
+            <button type="submit">Login</button>
 
+        </div>
+
+        
     </form>
+	
+	
+	
 
 </div>
-
 </body>
 </html>
+
+

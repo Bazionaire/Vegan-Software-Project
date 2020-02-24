@@ -12,7 +12,7 @@ session_start();
         <title>Homepage</title>
         <link type="text/css" rel="stylesheet" href="Style.css">
     </head>
-
+	
     <body class="homepage_body">
     <div class="header_homepage">
 
@@ -57,5 +57,5 @@ session_start();
 
 
     </body>
-
+	
     </html>

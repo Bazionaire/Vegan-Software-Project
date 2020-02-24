@@ -6,7 +6,7 @@ if (isset($_SESSION['user'])) {
 }
 ?>
 <header id="mast">
-    <img id="Vegan Recipes" src="./Images/header1.gif" alt="Vegan Recipes"/>
+    <img id="Vegan Recipes" src="./Images/vegan-1433237_1920.png" alt="Vegan Recipes"/>
     <div>
         <nav id="nav">
             <ul>
@@ -14,7 +14,9 @@ if (isset($_SESSION['user'])) {
                 <li><a href="about.php">About</a></li>
                 <!-- <li><a href="#findtool">Find a Tool</a></li> -->
                 <li><a href="#contact">Contact Us</a></li>
-                <?php if ($user != null) {
+                <?php if ($user != null) 
+				
+				{
                     echo "<li><a href=\"logout.php\">Logged in as: " . $user . " (Logout)</a></li>";
                 }  else {
                     echo "<li><a href=\"login.php\">Log in</a> </li>";

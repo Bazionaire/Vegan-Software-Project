@@ -10,8 +10,6 @@ if (!isset($_COOKIE['logged'])){
 
 ?>
 
-
-
 <!DOCTYPE html>
 
 <html>
