@@ -18,7 +18,7 @@ if (IsSet($_POST) && IsSet($_POST["uname"]) && IsSet($_POST["psw"])) {
     if ($userData != null) {
         $_SESSION["user"] = $username;
         $db->close();
-        header("Location: home.php");
+        header("Location: index.php");
         exit();
     } else {
         $userFeedback = "Username and password did not match.";

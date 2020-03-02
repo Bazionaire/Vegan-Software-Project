@@ -96,7 +96,7 @@ h1{
 }
 .registration_sheet{
     background-image: url("images/tomatoo.jpg");
-    background-size: 100%;
+    background-size: cover;
 
 }
 .registration_sheet > h1{

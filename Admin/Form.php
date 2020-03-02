@@ -33,7 +33,7 @@ $password=$_POST["psw"];
 if (valid_login($username,$password))
 {
     $_SESSION["user"]=$username;
-    header("Location: ./home.php");
+    header("Location: ./index.php");
 } else {
     session_destroy();
     header("Location: ./login.php");
