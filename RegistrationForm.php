@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body class="registration_sheet">
 <h1 id="header">Registration Form</h1>

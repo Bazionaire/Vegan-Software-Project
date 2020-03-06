@@ -10,20 +10,23 @@ session_start();
     <head>
         <meta charset="UTF-8">
         <title>Homepage</title>
-        <link type="text/css" rel="stylesheet" href="Style.css">
+        <link type="text/css" rel="stylesheet" href="css/style.css">
     </head>
 	
     <body class="homepage_body">
+    <header>
+        <?php include ("Header.php"); ?>
+    </header>
     <div class="header_homepage">
 
-        <ul id="navbar">
-            <li id="there"><a href="#">Home</a> </li>
-            <li><a href="#">About Us</a> </li>
-            <li><a href="#">Recipe</a> </li>
-            <li><a href="#">Products</a> </li>
-            <li><a href="#">Contact Us</a> </li>
-            <li><a href="login.php">Logout</a> </li>
-        </ul>
+<!--        <ul id="navbar">-->
+<!--            <li id="there"><a href="#">Home</a> </li>-->
+<!--            <li><a href="#">About Us</a> </li>-->
+<!--            <li><a href="#">Recipe</a> </li>-->
+<!--            <li><a href="#">Products</a> </li>-->
+<!--            <li><a href="#">Contact Us</a> </li>-->
+<!--            <li><a href="login.php">Logout</a> </li>-->
+<!--        </ul>-->
         <p id="info">
 
             vegetarian for five years before that. The difference between vegetarians and vegans is that vegetarians
@@ -54,7 +57,7 @@ session_start();
 
 
     </div>
-
+ <?php include("Footer.php");?>
 
     </body>
 	

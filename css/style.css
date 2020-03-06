@@ -1,7 +1,7 @@
 .login_page{
     margin: 0;
     padding: 0;
-    background: url("images/salad-2756467_1920.jpg");
+    background: url("../Images/salad-2756467_1920.jpg");
     font-family: sans-serif;
 }
 
@@ -95,7 +95,7 @@ h1{
 
 }
 .registration_sheet{
-    background-image: url("images/tomatoo.jpg");
+    background-image: url("../Images/tomatoo.jpg");
     background-size: cover;
 
 }
@@ -128,7 +128,7 @@ h2{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 50px 30px;
-    background-image: url("images/veganin.jpg");
+    background-image: url("../Images/veganin.jpg");
 }
 
 #register{
@@ -188,7 +188,7 @@ label{
     padding: 7px;
 }
 
-/* The Homepage Forms styling*/
+ The Homepage Forms styling
 
 .homepage_body{
     margin: 0;
@@ -197,7 +197,7 @@ label{
 
 }
 .header_homepage{
-    background: url("images/food-1209503_1920.jpg");
+    background: url("../Images/food-1209503_1920.jpg");
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -211,21 +211,21 @@ label{
     font-size: large;
 }
 
-#navbar {
-    float: right;
-    list-style-type: none;
-    margin-top: 25px;
-}
-#navbar > li{
-    display: inline-block;
-}
+/*#navbar {*/
+/*    float: right;*/
+/*    list-style-type: none;*/
+/*    margin-top: 25px;*/
+/*}*/
+/*#navbar > li{*/
+/*    display: inline-block;*/
+/*}*/
 
-#navbar > li > a{
-    text-decoration: none;
-    color: white;
-    padding: 5px 20px;
-    transition: 0.6s ease;
-}
+/*#navbar > li > a{*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*    padding: 5px 20px;*/
+/*    transition: 0.6s ease;*/
+/*}*/
 #there >a{
     background: #ffc107;
     color: white;

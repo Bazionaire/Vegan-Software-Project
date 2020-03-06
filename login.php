@@ -33,7 +33,7 @@ $db->close();
 <head>
     <meta charset="UTF-8">
     <title>Vegan App Login  </title>
-    <link rel="stylesheet" type="text/css" href="Style.css" >
+    <link rel="stylesheet" type="text/css" href="css/style.css" >
 </head>
 <body class="login_page">
 <div class="loginbox">
