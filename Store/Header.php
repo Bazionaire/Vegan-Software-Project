@@ -34,8 +34,9 @@
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Recipe</a>
             </li>
+
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Products</a>
+                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">About Us</a>
             </li>
         </ul>
 <!-- Login or Sign up-->
