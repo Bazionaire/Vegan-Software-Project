@@ -2,7 +2,7 @@
 
 createAdminsTableIfNeeded($db);
 
-$result = findUser($db, $username);
+$result = findUser($db, 'admin');
 if ($result['username'] == null) {
-    insertUser($db, 1, 'admin', 'password');
+    insertUser($db,'admin', 'password');
 }

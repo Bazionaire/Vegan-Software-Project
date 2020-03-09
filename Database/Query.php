@@ -3,7 +3,7 @@
 function createAdminsTableIfNeeded($db)
 {
     $query = "CREATE TABLE IF NOT EXISTS admins (
-                              userid int NOT NULL,
+                              userid int NOT NULL AUTO_INCREMENT,
                               username nvarchar(20),
                               password nvarchar(256),
                               PRIMARY KEY(userid))";
@@ -25,12 +25,12 @@ function checkUserLogin($db, $username, $password)
     return $return;
 }
 
-function insertUser($db, $userid, $username, $password)
+function insertUser($db, $username, $password)
 {
-    $query = "INSERT INTO admins (userid, username, password) VALUES (?, ?, ?)";
+    $query = "INSERT INTO admins (username, password) VALUES (?, ?)";
     $hashedPassword = sha1($password);
     $stmt = $db->prepare($query);
-    $stmt->bind_param('iss', $userid, $username, $hashedPassword);
+    $stmt->bind_param('ss', $username, $hashedPassword);
     $stmt->execute();
     return ($stmt->affected_rows > 0);
 }

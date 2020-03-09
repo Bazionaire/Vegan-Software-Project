@@ -44,12 +44,29 @@
 <!-- Login or Sign up-->
     <div class="w3-display-right">
         <ul class="navbar-nav">
-            <li class="nav-item ">
+        <?php if (!isset($_SESSION['user'])) {
+            echo "<li class='nav-item '>";
+            echo "<a class='w3-button w3-hover-yellow' href='login.php' style='color: yellow'>Sign In</a>";
+            echo "</li>";
+            echo "<li class='nav-item '>";
+            echo "<a class='w3-button w3-hover-yellow' href='RegistrationForm.php' style='color: yellow'>Sign Up</a>";
+            echo "</li>";
+        } else {
+            echo "<li class='nav-item '>";
+            echo "<span class='w3-button w3-text-yellow'>Welcome: ".$_SESSION['user']."</span>";
+            echo "</li>";
+            echo "<li class='nav-item '>";
+            echo "<a class='w3-button w3-hover-yellow' href='logout.php' style='color: yellow'>Sign Out</a>";
+            echo "</li>";
+        }
+        ?>
+
+            <!--<li class="nav-item ">
                 <a class="w3-button w3-hover-yellow" href="login.php" style="color: yellow">Sign In</a>
             </li>
             <li class="nav-item ">
                 <a class="w3-button w3-hover-yellow" href="RegistrationForm.php" style="color: yellow">Sign Up</a>
-            </li>
+            </li> -->
         </ul>
 
     </div>
