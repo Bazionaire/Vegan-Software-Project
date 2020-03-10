@@ -1,12 +1,29 @@
 <?php
-function checkUserData($userName, $password) {
+function checkUserData($firstName, $lastName, $email, $password, $confirm) {
     $feedback = null;
-    if (!isSetandNotEmpty($userName)) {
-        $feedback .= 'Please enter a username<br />';
+    // Check for a first name
+    if (!isSetandNotEmpty($firstName)) {
+        $feedback .= 'Please enter a first name<br />';
     }
-
+    // check for a last name
+    if (!isSetandNotEmpty($lastName)) {
+        $feedback .= 'Please enter a last name<br />';
+    }
+    // check email address
+    if (!isSetandNotEmpty($email)) {
+        $feedback .= 'Please enter an email address<br />';
+    }
+    // check password address
     if (!isSetandNotEmpty($password)) {
         $feedback .= 'Please enter a password<br />';
+    }
+    // check confirm password address
+    if (!isSetandNotEmpty($confirm)) {
+        $feedback .= 'Please confirm password<br />';
+    }
+    // Check password and confirm password are equal
+    if ($password !== $confirm) {
+        $feedback .= 'Passwords do not match<br />';
     }
     return $feedback;
 }

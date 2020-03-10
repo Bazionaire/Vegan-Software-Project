@@ -9,19 +9,19 @@ include "./Database/Admin.php";
 $userFeedback = null;
 
 
-if (IsSet($_POST) && IsSet($_POST["uname"]) && IsSet($_POST["psw"])) {
+if (IsSet($_POST) && IsSet($_POST["Fname"]) && IsSet($_POST["psw"])) {
 
-    $username = trim($_POST['uname']);
+    $firstName = trim($_POST['Fname']);
     $password = trim($_POST['psw']);
 
-    $userData = checkUserLogin($db, $username, $password);
+    $userData = checkUserLogin($db, $firstName, $password);
     if ($userData != null) {
-        $_SESSION["user"] = $username;
+        $_SESSION["user"] = $firstName;
         $db->close();
         header("Location: index.php");
         exit();
     } else {
-        $userFeedback = "Username and password did not match.";
+        $userFeedback = "First Name and password did not match.";
     }
 }
 
@@ -42,8 +42,8 @@ $db->close();
     <?php if ($userFeedback != null) echo '<p id="feedback">' . $userFeedback . '</p>' ?>
     <form action="" method="post">
         <div id="contentbox" class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="Fname"><b>Username</b></label>
+            <input type="text" placeholder="Enter First Name" name="Fname" required>
 
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
