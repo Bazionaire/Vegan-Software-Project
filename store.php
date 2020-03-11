@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/Store.css">
+    <link rel="stylesheet" href="css/Store.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <title>Store</title>
 
@@ -19,7 +23,7 @@
     <!--photo start-->
     <div class="w3-main" style="margin-left:100px">
         <div class="w3-display-container w3-container">
-            <img src="../Images/breakfast-1663295_1920.jpg" alt="Jeans" style="width:100%">
+            <img src="Images/breakfast-1663295_1920.jpg" alt="Jeans" style="width:100%">
             <div class="w3-display-topleft w3-text-white" style="padding:240px 48px">
                 <h1 class="w3-jumbo w3-hide-small">Vegan Store </h1>
                 <h1 class="w3-jumbo w3-hide-small">Available Now</h1>

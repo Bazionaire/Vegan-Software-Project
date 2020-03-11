@@ -19,14 +19,14 @@
     <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top" >
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
-            <img src="../Images/Logo/VEGAN%20PROJECT%20LOGO.png" alt="logo" style="width:60px;">
+            <img src="../../Images/Logo/VEGAN%20PROJECT%20LOGO.png" alt="logo" style="width:60px;">
             <strong>RGU VEGAN PROJECT</strong>
         </a>
 
         <!-- Navbar -->
         <ul  class="navbar-nav">
             <li class="nav-item ">
-                <a class="w3-button w3-hover-yellow " href="../index.php" style="color: yellow; transition:0.9s ease;">Home</a>
+                <a class="w3-button w3-hover-yellow " href="../../index.php" style="color: yellow; transition:0.9s ease;">Home</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Store</a>
@@ -43,10 +43,10 @@
     <div class="w3-display-right">
         <ul class="navbar-nav">
             <li class="nav-item ">
-                <a class="w3-button w3-hover-yellow" href="../login.php" style="color: yellow">Signin</a>
+                <a class="w3-button w3-hover-yellow" href="../../login.php" style="color: yellow">Signin</a>
             </li>
             <li class="nav-item ">
-                <a class="w3-button w3-hover-yellow" href="../RegistrationForm.php" style="color: yellow">Signup</a>
+                <a class="w3-button w3-hover-yellow" href="../../RegistrationForm.php" style="color: yellow">Signup</a>
             </li>
         </ul>
 

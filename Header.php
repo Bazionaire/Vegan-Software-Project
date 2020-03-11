@@ -29,7 +29,7 @@
                 <a class="w3-button w3-hover-yellow " href="#" style="color: yellow">Home</a>
             </li>
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="Store/store.php" style="color: yellow">Store</a>
+                <a class="w3-button w3-hover-yellow" href="store.php" style="color: yellow">Store</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Recipe</a>
