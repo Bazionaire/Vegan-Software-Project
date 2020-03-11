@@ -26,7 +26,7 @@ if (!isset($_COOKIE['logged'])){
 
 <p>Welcome to success page</p>
 
-<p><a href="logout.php">Logout</a></p>
+<p><a href="../logout.php">Logout</a></p>
 
 </body>
 
