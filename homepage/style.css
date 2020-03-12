@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.banner{
+  height: 100vh;
+  position: relative;
+  
+}
+
+
+.carousel-caption{
+  font-size:20px ;
+}
+
+.carousel-caption p{
+  margin-top: 40px;
+}
+
+/*About us*/
+.global-headline{
+  text-align: center;
+  margin-top: 3.9rem;
+}
+
+
+
+
+ .headline{
+   letter-spacing: .7rem;
+   margin-right: .7rem;
+   
+ }
+
+ .global-headline .sub-headline{
+   letter-spacing: .1px;
+
+ }
+ .info{
+   text-align: center;
+ }
+ .vegan-description {
+   margin-bottom: 3rem;
+ }
+ .vegan-description .about-text{
+   line-height: 1.6;
+   margin-bottom: 2.4rem;
+  color: black;
+}
+.body-btn{
+  font-size: 1.5rem;
+  color: aqua;
+  position: relative;
+  transition: color .5s;
+}
+.body-btn::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 100%;
+  height: 2px;
+  background-color:lightblue;
+  transition: background-color .5s;
+}
+
+.body-btn:hover
+.body-btn:focus{
+  color: cadetblue;
+
+}
+.about-pic img{
+  
+  float: right;
+}
