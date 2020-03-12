@@ -26,7 +26,7 @@
         <!-- Navbar -->
         <ul  class="navbar-nav">
             <li class="nav-item ">
-                <a class="w3-button w3-hover-yellow " href="../../index.php" style="color: yellow; transition:0.9s ease;">Home</a>
+                <a class="w3-button w3-hover-yellow " href="../../index1.php" style="color: yellow; transition:0.9s ease;">Home</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Store</a>

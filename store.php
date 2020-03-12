@@ -42,7 +42,7 @@ session_start();
 
                 <div class="w3-container">
                     <div class="w3-display-container">
-                        <img src="img/Cokies.jpg" style="width:300px;height:200px">
+                        <img src="img/Cookies.jpg" style="width:300px;height:200px">
                         <span class="w3-tag w3-display-topleft">New</span>
                         <div class="w3-display-middle w3-display-hover">
                             <a href="https://www.amazon.co.uk/dp/B00XMZ6U0Y/ref=as_li_tl?ie=UTF8&linkCode=gs2&linkId=9694157c8faff034f306731e5ee44751&creativeASIN=B00XMZ6U0Y&tag=vegancom-21&creative=9325&camp=1789" target="_blank"><button  class="w3-button w3-black">Buy now <i class="fa fa-shopping-cart"></i></button></a>

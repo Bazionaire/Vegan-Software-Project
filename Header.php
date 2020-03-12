@@ -26,19 +26,22 @@
         <!-- Links -->
         <ul  class="navbar-nav">
             <li class="nav-item ">
-                <a class="w3-button w3-hover-yellow " href="#" style="color: yellow">Home</a>
+                <a class="w3-button w3-hover-yellow " href="index.php" style="color: yellow">Home</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="store.php" style="color: yellow">Store</a>
             </li>
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Recipe</a>
+                <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Recipe</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Products</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Blog</a>
             </li>
         </ul>
 <!-- Login or Sign up-->

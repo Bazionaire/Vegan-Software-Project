@@ -4,7 +4,7 @@ echo "Hello!!,";
 
 if (!isset($_COOKIE['logged'])){
 
-    header('location:index.php');
+    header('location:index1.php');
 
 }
 
