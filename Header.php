@@ -63,6 +63,7 @@
             echo "</li>";
         }
         ?>
+<!--       Login     ends-->
 
             <!--<li class="nav-item ">
                 <a class="w3-button w3-hover-yellow" href="login.php" style="color: yellow">Sign In</a>
