@@ -16,12 +16,12 @@
         <a class="w3-button w3-large w3-teal" href="https://www.pinterest.co.uk/pin/345792077624940878/?lp=true" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a>
         <a class="w3-button w3-large w3-teal" href="https://www.instagram.com/explore/tags/vegan/" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a>
         <a class="w3-button w3-large w3-teal w3-hide-small" href="https://www.youtube.com/user/thevegancorner" target="_blank" title="Youtube"><i class="fa fa-youtube"></i></a>
-        <p>Powered by <a href="#" target="_blank" style="color: #3f51b5">Group G</a></p>
+        <p>Powered by <a href="https://github.com/Bazionaire/Vegan-Software-Project" target="_blank" style="color: #3f51b5">Group G</a></p>
         <div style="position: relative;top:-100px; left: 200px" class="w3-left">
 
             <p><a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html" target="_blank" style="color: #3f51b5">User Policy</a> and
                 <a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html" target="_blank" style="color: #3f51b5">Data Protection</a>
-            </p> 2020 <a href="index1.php" target="_blank" style="color: #3f51b5">RGU Vegan Project</a>
+            </p> 2020 <a href="index.php" target="_blank" style="color: #3f51b5">RGU Vegan Project</a>
         </div>
         <div style="position: relative;top:-100px; right: 20px" class="w3-right">
             <p> <strong>Contact Us : </strong> Garthdee House, Garthdee Road,
