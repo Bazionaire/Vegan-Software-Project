@@ -28,14 +28,19 @@ if (IsSet($_POST) && IsSet($_POST["Fname"]) && IsSet($_POST["psw"])) {
 session_destroy();
 $db->close();
 ?>
+<!--Htlm start-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Vegan App Login  </title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/login.css" >
 </head>
-<body class="login_page">
+<body id="login_page">
+<header>
+    <?php include ("Header.php");?>
+</header>
+
 <div class="loginbox">
     <img src="images/computer-1331579_1280.png" class="profile">
     <h1> Login Here</h1>
@@ -49,16 +54,13 @@ $db->close();
             <input type="password" placeholder="Enter Password" name="psw" required>
 
             <button type="submit">Login</button>
-
         </div>
 
-        
     </form>
-	
-	
-	
+
 
 </div>
+
 </body>
 </html>
 

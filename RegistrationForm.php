@@ -49,9 +49,12 @@ $db->close();
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body class="registration_sheet">
+<header>
+<?php include ("Header.php"); ?>
+</header>
 <h1 id="header">Registration Form</h1>
 
 <div  class="register">
@@ -83,7 +86,6 @@ $db->close();
 
 
 </div>
-
 
 </body>
 </html>
