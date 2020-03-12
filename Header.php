@@ -20,9 +20,9 @@
         <!-- Brand/logo -->
         <a class="navbar-brand" href="#">
             <img src="Images/Logo/VEGAN%20PROJECT%20LOGO.png" alt="logo" style="width:60px;">
-            <strong>RGU VEGAN PROJECT</strong>
-        </a>
 
+        </a>
+        <strong style="color:white">RGU VEGAN PROJECT</strong>
         <!-- Links -->
         <ul  class="navbar-nav">
             <li class="nav-item ">
