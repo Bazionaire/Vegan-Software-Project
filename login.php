@@ -40,8 +40,8 @@ $db->close();
 <header>
     <?php include ("Header.php");?>
 </header>
-
-<div class="loginbox">
+<div class="w3-container">
+<div class="loginbox" >
     <img src="images/computer-1331579_1280.png" class="profile">
     <h1> Login Here</h1>
     <?php if ($userFeedback != null) echo '<p id="feedback">' . $userFeedback . '</p>' ?>
@@ -60,6 +60,8 @@ $db->close();
 
 
 </div>
+</div>
+
 </body>
 </html>
 

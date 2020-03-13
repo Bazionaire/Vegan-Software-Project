@@ -34,15 +34,15 @@
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Recipe</a>
             </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Products</a>-->
+<!--            </li>-->
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Products</a>
+                <a class="w3-button w3-hover-yellow" href="about.php" style="color: yellow;transition:0.9s ease;">About Us</a>
             </li>
-            <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Blog</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Blog</a>-->
+<!--            </li>-->
         </ul>
 <!-- Login or Sign up-->
     <div class="w3-display-right">

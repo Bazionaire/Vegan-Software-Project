@@ -114,7 +114,7 @@ session_start();
 
                      </p>
                     </p>
-                    <a href="#" class="btn body-btn"> <strong>About us</strong></a>
+                    <a href="about.php" class="btn body-btn"> <strong>About us</strong></a>
                  </div >
                     <div class="about-pic" style="margin-left: 50px">
                       <img src="Images/CHQ_vegan2.gif">
@@ -131,7 +131,7 @@ session_start();
               <div class="col-md-12">
                    <div class="header text-center">
                         <h2>Our Team</h2>
-                       <a href="About.php">Meet the brains behind the vegan app</a>
+                       <a href="about.php">Meet the brains behind the vegan app</a>
                    </div>
                 </div>
 
