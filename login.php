@@ -60,7 +60,6 @@ $db->close();
 
 
 </div>
-
 </body>
 </html>
 
