@@ -21,7 +21,7 @@
 
             <p><a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html" target="_blank">User Policy</a> and
                 <a href="http://campusmoodle.rgu.ac.uk/public/policy/policy.html" target="_blank">Data Protection</a>
-            </p> 2020 <a href="index.php" target="_blank">RGU Vegan Project</a>
+            </p> 2020 <a href="index.php">RGU Vegan Project</a>
         </div>
         <div style="position: relative;top:-100px; right: 20px" class="w3-right">
             <p> <strong>Contact Us : </strong> Garthdee House, Garthdee Road,

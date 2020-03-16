@@ -55,8 +55,8 @@ session_start();
                  </div>
                 </div>
                 <div class="carousel-item " style="height: 700px;">
-                  <img src="Images/close-up-photo-of-cakes-near-glass-window-2773606.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption w3-display-middle " style="color: black" >
+                  <img src="Images/vegg.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption w3-display-topleft" " >
                       <h1>VEGANISM IS A WAY OF LIFE</h1>
                       <h2>All life deserves respect, dignity, and compassion</h2>
                       <p>  “I personally chose to go vegan because I educated myself on factory farming and cruelty to animals, and I suddenly realized that what was on my plate were living things, with feelings. And I just couldn’t disconnect myself from it any longer.” <br>
