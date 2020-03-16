@@ -14,7 +14,15 @@ $(document).ready(function(){
  
 //searching for recipe with the vegan api parameters attached.
 function displayRecipes() {
-   $.ajax({
+    var checks=["chicken","lamb","fish"]
+    for(var c = 0 ; c <ingredients.length;c++){
+        if(ingredients[c]==checks){
+            alert("You are not vegan, we go Bananas over here. we don't GO HAM!")
+            return false ;
+        }
+    }
+
+    $.ajax({
        url: 'https://api.edamam.com/search?q=' + ingredients + '&app_id=7dd554c1&app_key=683c69acac45bb61851b55f28768d0fd&health=vegan'
    }).then(function(response) {
 

@@ -49,7 +49,7 @@ $db->close();
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/login1.css">
 </head>
 <body class="registration_sheet">
 <header>
