@@ -180,6 +180,7 @@ session_start();
             </div>
         </div>
     </div>
+<!--    end-->
 	<footer>
     <?php include("Footer.php");?>
 </footer>
