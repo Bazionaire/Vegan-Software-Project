@@ -18,7 +18,7 @@
     <!--    nav start-->
     <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark  fixed-top" >
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.php">
             <img src="Images/Logo/VEGAN%20PROJECT%20LOGO.png" alt="logo" style="width:60px;">
 
         </a>
