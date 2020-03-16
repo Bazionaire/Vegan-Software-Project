@@ -124,7 +124,7 @@ session_start();
          </div>
 
     </section>
-    <section>
+    <section style="margin-bottom: 15px">
       <div class="album-sec" >
          <div class="container">
             <div class="row">
