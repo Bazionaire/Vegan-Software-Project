@@ -14,7 +14,7 @@ $(document).ready(function(){
  
 //searching for recipe with the vegan api parameters attached.
 function displayRecipes() {
-    var checks=["chicken","lamb","fish"]
+    var checks=["chicken","lamb","fish","pork","beef","turkey","ham","meat"]
     for(var c = 0 ; c <ingredients.length;c++){
         // Start spinner
         var n = checks.includes(ingredients[c]); //check if item is in list return true or false ie true if it does or false if it doesnt
@@ -73,7 +73,7 @@ $('#ingredientsSearchBtn').on('click', function(event){
    event.preventDefault();
    var ingredient = $('#ingredientsSearchBar').val().trim();
    var ingredientStr = String(ingredient);
-    ingredients =[]
+    ingredients =[];
    ingredients.push(ingredient);
    $('#ingredientsSearchBar').val('');
    $('#ingredients-list').empty();

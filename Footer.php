@@ -9,7 +9,7 @@
     <title>Main Footer</title>
 </head>
 <footer>
-    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center w3-fixed-botton">
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center footer-fixed">
         <h4>Follow Us</h4>
         <a class="w3-button w3-large w3-teal" href="https://www.facebook.com/sovegan/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a>
         <a class="w3-button w3-large w3-teal" href="https://twitter.com/search?q=vegan&src=typed_query" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a>
