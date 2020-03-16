@@ -23,10 +23,10 @@ session_start();
       <section class="banner">
         <div class="slider">
           <div id="slider" class="carousel slide carousel-fade" data-ride="carousel">
-              <div class="carousel-inner">
+              <div class="carousel-inner" style="height: 700px">
                 <div class="carousel-item active">
                   <img src="Images/644455-POO5SL-571.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption">
+                  <div class="carousel-caption w3-display-middle" style="color: white">
                        <h1>VEGAN APPLICATION</h1>
                        <h2>Veganism is not a sacrifice</h2>
                        <p> "I have no doubt that it is a part of the destiny of the human race, in its gradual improvement, to leave off eating animals, as surely as the savage tribes have left off eating each other when they came in contact with the more civilized."
@@ -34,9 +34,9 @@ session_start();
                           Henry David Thoreau </p>
                   </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" style="height: 700px">
                   <img src="Images/4884.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption" >
+                  <div class="carousel-caption w3-display-middle" >
                       <h1>THIS APP WAS CREATED BY GROUP G</h1>
                       <h2>Animals are not products</h2>
                       <p>  "A man can live and be healthy without killing animals for food; therefore, if he eats meat, he participates in taking animal life merely for the sake of his appetite. And to act so is immoral."
@@ -44,9 +44,9 @@ session_start();
                           Leo Tolstoy  </p>
                  </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" style="height: 700px">
                   <img src="Images/person-holding-white-ceramic-bowl-with-red-liquid-3832338.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption" >
+                  <div class="carousel-caption w3-display-middle" style="color: black" >
                       <h1>VEGANISM IS A WAY OF LIFE</h1>
                       <h2>All life deserves respect, dignity, and compassion</h2>
                       <p>  “I personally chose to go vegan because I educated myself on factory farming and cruelty to animals, and I suddenly realized that what was on my plate were living things, with feelings. And I just couldn’t disconnect myself from it any longer.” <br>
@@ -54,9 +54,9 @@ session_start();
                           Ellen DeGeneres </p>
                  </div>
                 </div>
-                <div class="carousel-item">
-                  <img src="Images/salad-2756467_1920.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption" >
+                <div class="carousel-item " style="height: 700px;">
+                  <img src="Images/close-up-photo-of-cakes-near-glass-window-2773606.jpg" class="d-block w-100" alt="...">
+                  <div class="carousel-caption w3-display-middle " style="color: black" >
                       <h1>VEGANISM IS A WAY OF LIFE</h1>
                       <h2>All life deserves respect, dignity, and compassion</h2>
                       <p>  “I personally chose to go vegan because I educated myself on factory farming and cruelty to animals, and I suddenly realized that what was on my plate were living things, with feelings. And I just couldn’t disconnect myself from it any longer.” <br>
