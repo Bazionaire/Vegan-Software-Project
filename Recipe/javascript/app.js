@@ -16,10 +16,17 @@ $(document).ready(function(){
 function displayRecipes() {
     var checks=["chicken","lamb","fish"]
     for(var c = 0 ; c <ingredients.length;c++){
-        if(ingredients[c]==checks){
+        // Start spinner
+        var n = checks.includes(ingredients[c]); //check if item is in list return true or false ie true if it does or false if it doesnt
+
+        if(n==true){
             alert("You are not vegan, we go Bananas over here. we don't GO HAM!")
-            return false ;
+                // Stop spinner
+                return false ;
+
+
         }
+    // stop spinner
     }
 
     $.ajax({
@@ -66,7 +73,7 @@ $('#ingredientsSearchBtn').on('click', function(event){
    event.preventDefault();
    var ingredient = $('#ingredientsSearchBar').val().trim();
    var ingredientStr = String(ingredient);
-
+    ingredients =[]
    ingredients.push(ingredient);
    $('#ingredientsSearchBar').val('');
    $('#ingredients-list').empty();
