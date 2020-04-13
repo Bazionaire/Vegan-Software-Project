@@ -17,7 +17,7 @@ if (isset($_SESSION['user'])) {
                 <?php if ($user != null) 
 				
 				{
-                    echo "<li><a href=\"logout.php\">Logged in as: " . $user . " (Logout)</a></li>";
+                    echo "<li><a href=\"Log_out.php\">Logged in as: " . $user . " (Logout)</a></li>";
                 }  else {
                     echo "<li><a href=\"login.php\">Log in</a> </li>";
                 }

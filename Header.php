@@ -34,15 +34,20 @@
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Recipe</a>
             </li>
-<!--            <li class="nav-item">-->
-<!--                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Products</a>-->
-<!--            </li>-->
+<!--We need to decide-->
+            <li class="nav-item">
+                <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Nutritions</a>
+            </li>
+            <li class="nav-item">
+                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">News & Events</a>
+            </li>
+                        <li class="nav-item">
+                            <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Form & Topics</a>
+                        </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="about.php" style="color: yellow;transition:0.9s ease;">About Us</a>
             </li>
-<!--            <li class="nav-item">-->
-<!--                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">Blog</a>-->
-<!--            </li>-->
+
         </ul>
 <!-- Login or Sign up-->
     <div class="w3-display-right">
@@ -59,7 +64,7 @@
             echo "<span class='w3-button w3-text-yellow'>Welcome: ".$_SESSION['user']."</span>";
             echo "</li>";
             echo "<li class='nav-item '>";
-            echo "<a class='w3-button w3-hover-yellow' href='logout.php' style='color: yellow'>Sign Out</a>";
+            echo "<a class='w3-button w3-hover-yellow' href='Log_out.php' style='color: yellow'>Sign Out</a>";
             echo "</li>";
         }
         ?>
