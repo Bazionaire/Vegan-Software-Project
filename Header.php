@@ -42,7 +42,7 @@
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">News & Events</a>
             </li>
                         <li class="nav-item">
-                            <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Form & Topics</a>
+                            <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Forum & Topics</a>
                         </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="about.php" style="color: yellow;transition:0.9s ease;">About Us</a>
@@ -64,7 +64,7 @@
             echo "<span class='w3-button w3-text-yellow'>Welcome: ".$_SESSION['user']."</span>";
             echo "</li>";
             echo "<li class='nav-item '>";
-            echo "<a class='w3-button w3-hover-yellow' href='Log_out.php' style='color: yellow'>Sign Out</a>";
+            echo "<a class='w3-button w3-hover-yellow' href='logout.php' style='color: yellow'>Sign Out</a>";
             echo "</li>";
         }
         ?>
