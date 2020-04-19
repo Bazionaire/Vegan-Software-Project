@@ -41,9 +41,19 @@
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">News & Events</a>
             </li>
-                        <li class="nav-item">
-                            <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Forum & Topics</a>
-                        </li>
+            <!-- <li class="nav-item">-->
+            <?php if (!isset($_SESSION['user'])) {
+                echo "<li class='nav-item '>";
+                echo "<a class='w3-button w3-hover-yellow' style='color: yellow'>Sign In to access Forum</a>";
+                echo "</li>";
+            } else {
+                echo "<li class='nav-item '>";
+                echo "<a class='w3-button w3-hover-yellow' href='Forum.php' style='color: yellow'>Forum</a>";
+                echo "</li>";
+            }
+            ?>
+            <!-- <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Forum & Topics</a> -->
+            </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="about.php" style="color: yellow;transition:0.9s ease;">About Us</a>
             </li>
