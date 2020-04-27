@@ -1,0 +1,130 @@
+#forum_page {
+    margin: 0;
+    padding: 0;
+    background: url("../Images/vegan20.jpg");
+    font-family: sans-serif;
+}
+
+.profile {
+    width: 100px;
+    height:  100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 18px;
+    color: orangered;
+}
+
+h3{
+    margin: 0;
+    padding: 0 0 5px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+}
+
+.notification {
+    margin-top: 40px;
+    text-align: center;
+    color: yellow;
+}
+
+.forumbox {
+    margin-top: 200px;
+    width: 900px;
+    min-height: 800px;
+    background-color: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.forumbox p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.forumbox table {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.forumbox thead {
+    text-align: left;
+    font-size: 20px;
+}
+
+.forumbox tbody {
+    text-align: left;
+    font-size: 16px;
+}
+
+.forumbox th {
+    padding: 10px;
+}
+
+.forumbox td {
+    border-bottom: solid 2pt #607d8b;
+    border-top: solid 2pt #607d8b;
+    padding: 10px;
+}
+
+.forumbox a {
+    text-decoration: none;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.forumbox a:hover {
+    color: #ffc107;
+}
+
+.forumbox label {
+    margin-left: 20px;
+    color: yellow;
+}
+
+.forumbox textarea {
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 5px;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+}
+
+.forumbox input[type="text"] {
+    margin-left: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.forumbox form {
+   text-align: center;
+}

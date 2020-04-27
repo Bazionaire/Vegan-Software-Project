@@ -14,9 +14,12 @@ if (IsSet($_POST) && IsSet($_POST["Fname"]) && IsSet($_POST["psw"])) {
     $firstName = trim($_POST['Fname']);
     $password = trim($_POST['psw']);
 
-    $userData = checkUserLogin($db, $firstName, $password);
-    if ($userData != null) {
+    $userEmail = checkUserLogin($db, $firstName, $password);
+    if ($userEmail != null) {
+        $userName = returnUserName($db, $userEmail);
         $_SESSION["user"] = $firstName;
+        $_SESSION["lastname"] = $userName['lastname'];
+        $_SESSION["email"] = $userEmail;
         $db->close();
         header("Location: index.php");
         exit();

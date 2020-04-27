@@ -49,3 +49,16 @@ function findUser($db, $email)
     $stmt->free_result();
     return $result;
 }
+
+function returnUserName($db, $email) {
+    $result = array();
+    $query = "SELECT firstname, lastname FROM users WHERE email = ?";
+    $stmt = $db->prepare($query);
+    $stmt->bind_param('s', $email);
+    $stmt->execute();
+    $stmt->store_result();
+    $stmt->bind_result($result['firstname'], $result['lastname']);
+    $stmt->fetch();
+    $stmt->free_result();
+    return $result;
+}
