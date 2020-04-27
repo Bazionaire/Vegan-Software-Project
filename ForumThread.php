@@ -8,8 +8,8 @@
 session_start();
 
 require_once "./Database/dbconnect.php";
-include "./Database/threadQuery.php";
-include "./Database/commentQuery.php";
+include "./Database/forumThreadQuery.php";
+include "./Database/forumCommentQuery.php";
 
 if (isset($_GET['threadID'])) {
     $threadID = (int)$_GET['threadID'];

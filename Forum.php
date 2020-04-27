@@ -8,7 +8,7 @@
  session_start();
 
 require_once "./Database/dbconnect.php";
-include "./Database/threadQuery.php";
+include "./Database/forumThreadQuery.php";
 
 if (!isset($_SESSION['populate'])) {
 
@@ -44,7 +44,7 @@ $db->close();
             echo "</thead>";
             echo "<tbody>";
             foreach ($threads as $thread) {
-                $row = "<tr><td><a href='ForumThread.php?threadID=" . $thread['threadID'] . "'>" . $thread['title'] . "</td>";
+                $row = "<tr><td><a href='ForumThread.php?threadID=" . $thread['threadID'] . "'>" . $thread['title'] . "</a></td>";
                 $row .= "<td>" . $thread['firstname'] . " " . $thread['lastname'] . "</td>";
                 $row .= "<td>" . $thread['threaddate'] . "</td></tr>";
                 echo  $row;

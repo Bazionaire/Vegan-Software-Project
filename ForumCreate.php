@@ -8,7 +8,7 @@
 session_start();
 
 require_once "./Database/dbconnect.php";
-include "./Database/threadQuery.php";
+include "./Database/forumThreadQuery.php";
 
 if (isset($_POST['title'])) {
     $title = htmlspecialchars($_POST['title']);

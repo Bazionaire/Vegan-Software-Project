@@ -1,7 +1,7 @@
 <?php
 
 include "./Database/Query.php";
-include "./Database/commentQuery.php";
+include "./Database/forumCommentQuery.php";
 
 function createUserTableIfNeeded($db)
 {
