@@ -1,24 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Helen Harle
- * Date: 19/04/2020
- * Time: 21:02
- */
 session_start();
-
-require_once "./Database/dbconnect.php";
-include "./Database/forumThreadQuery.php";
-
-if (!isset($_SESSION['populate'])) {
-
-    include "./Database/forumSetup.php";
-    $_SESSION['populate'] = "populated";
-}
-
-$threads = readThreads($db);
-
-$db->close();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +9,8 @@ $db->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style1.css">
-    <link rel="shortcut icon" href="dist/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="recipe_favour/css/style1.css">
+    <link rel="shortcut icon" href="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" type="image/x-icon">
     <title>Search a recipes</title>
     <?php include ("Header.php"); ?>
 
@@ -37,9 +18,9 @@ $db->close();
 
 <body>
 <div class="list_test">
-    <header class="header">
-        <img src="dist/img/VEGAN%20PROJECT%20LOGO.png" alt="logo" class="header__logo">
-        <form class="search">
+    <header class="header" style="background: wheat">
+        <img src="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" alt="logo" class="header__logo">
+        <form class="search" style="margin-left: 350px" >
             <input type="text" class="search__field" placeholder="Search a recipes...">
             <button class="btn search__btn">
                 <svg class="search__icon">
@@ -48,7 +29,7 @@ $db->close();
                 <span>Search</span>
             </button>
         </form>
-        <h1 style=""> Favourite List</h1>
+        <h1 class="heading-2" style="margin-left: 400px"> Favourite List:</h1>
         <div class="likes">
             <div class="likes__field">
                 <svg class="likes__icon">
@@ -90,7 +71,9 @@ $db->close();
 
     </div>
 </div>
-<script type="text/javascript" src="dist/js/bundle.js"></script></body>
+<script type="text/javascript" src="recipe_favour/js/bundle.js"></script>
+
+</body>
 <footer>
     <?php include("Footer.php");?>
 </footer>

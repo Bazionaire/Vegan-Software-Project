@@ -35,6 +35,7 @@ $db->close();
     <meta charset="UTF-8">
     <title>Vegan App Forum</title>
     <link rel="stylesheet" type="text/css" href="css/forum.css" >
+    <link rel="shortcut icon" href="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" type="image/x-icon">
 </head>
 <body id="forum_page">
 <header>

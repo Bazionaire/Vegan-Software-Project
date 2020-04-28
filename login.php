@@ -38,6 +38,7 @@ $db->close();
     <meta charset="UTF-8">
     <title>Vegan App Login  </title>
     <link rel="stylesheet" type="text/css" href="css/login1.css" >
+    <link rel="shortcut icon" href="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" type="image/x-icon">
 </head>
 <body id="login_page">
 <header>
