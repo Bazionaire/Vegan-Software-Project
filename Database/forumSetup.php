@@ -83,8 +83,7 @@ $threadHarryID = insertThreadIfRequired($db, "Feeling lightheaded/dizzy",
     "I recently became a vegetarian and have been getting light headed and dizzy. Can anyone recommend 
     any dietary changes that might address this? Your help is greatly appreciated! Thanks", $harryUserID);
 $threadSallyID = insertThreadIfRequired($db, "What did you cook or bake today?",
-    "This thread is for sharing food that you have cooked or baked. Please also feel free to post any photos 
-    that you wish to share.", $sallyUserID);
+    "This thread is for sharing food that you have cooked or baked.", $sallyUserID);
 $threadJohnID = insertThreadIfRequired($db, "Health Challenge",
     "I really need to try to get back to a more healthy lifestyle. Right now it is really hard though! I am
      a comfort eater and my food of choice is sweets! I am lucky that I have my treadmill to at least keep me a bit
