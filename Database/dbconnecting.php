@@ -1,6 +1,6 @@
 <?php
 
-//Login_Request
+//LoginRequirement
 include("../Database/dbconnect.php");
 include("../Database/Query.php");
 include("../Admin/DataCheck.php");

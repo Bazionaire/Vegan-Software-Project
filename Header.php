@@ -36,7 +36,7 @@
             </li>
 <!--We need to decide-->
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Nutritions</a>
+                <a class="w3-button w3-hover-yellow" href="favourite.php" style="color: yellow">Nutritions</a>
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">News & Events</a>
