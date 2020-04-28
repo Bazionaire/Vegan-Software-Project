@@ -1,3 +1,25 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Helen Harle
+ * Date: 19/04/2020
+ * Time: 21:02
+ */
+session_start();
+
+require_once "./Database/dbconnect.php";
+include "./Database/forumThreadQuery.php";
+
+if (!isset($_SESSION['populate'])) {
+
+    include "./Database/forumSetup.php";
+    $_SESSION['populate'] = "populated";
+}
+
+$threads = readThreads($db);
+
+$db->close();
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -52,7 +52,7 @@
                 echo "</li>";
             }
             ?>
-            <!-- <a class="w3-button w3-hover-yellow" href="#" style="color: yellow;transition:0.9s ease;">Forum & Topics</a> -->
+
             </li>
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="about.php" style="color: yellow;transition:0.9s ease;">About Us</a>
