@@ -42,15 +42,20 @@ function readThreads($db) {
     $threaddate = null;
     $firstname = null;
     $lastname = null;
+    $commentCount = null;
     $results = array();
     $index = 0;
 
-    $query = "SELECT thread.threadID, thread.title, thread.description, thread.threaddate, users.firstname, users.lastname FROM thread, users 
-              WHERE thread.email = users.email
+    $query = "SELECT thread.threadID, thread.title, thread.description, thread.threaddate, 
+              users.firstname, users.lastname, COUNT(comment.commentID) 
+              FROM thread
+              INNER JOIN users ON thread.email = users.email
+              LEFT OUTER JOIN comment ON thread.threadID = comment.threadID
+              GROUP BY thread.threadID, thread.title, thread.description, thread.threaddate, users.firstname, users.lastname 
               ORDER BY threaddate ASC";
     $stmt = $db->prepare($query);
     $stmt->execute();
-    $stmt->bind_result($threadID, $title, $description, $threaddate, $firstname, $lastname);
+    $stmt->bind_result($threadID, $title, $description, $threaddate, $firstname, $lastname, $commentCount);
     while ($stmt->fetch()) {
         $results[$index]['threadID'] = $threadID;
         $results[$index]['title'] = $title;
@@ -58,6 +63,7 @@ function readThreads($db) {
         $results[$index]['threaddate'] = $threaddate;
         $results[$index]['firstname'] = $firstname;
         $results[$index]['lastname'] = $lastname;
+        $results[$index]['commentCount'] = $commentCount;
         $index += 1;
     }
     $stmt->free_result();

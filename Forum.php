@@ -41,13 +41,14 @@ $db->close();
         if (count($threads) > 0) {
             echo "<table>";
             echo "<thead>";
-            echo "<tr><th>Thread Title</th><th>Started by</th><th>Date Created</th></tr>";
+            echo "<tr><th>Thread Title</th><th>Started by</th><th>Date Created</th><th>Comments</th></tr>";
             echo "</thead>";
             echo "<tbody>";
             foreach ($threads as $thread) {
                 $row = "<tr><td><a href='ForumThread.php?threadID=" . $thread['threadID'] . "'>" . $thread['title'] . "</a></td>";
                 $row .= "<td>" . $thread['firstname'] . " " . $thread['lastname'] . "</td>";
-                $row .= "<td>" . $thread['threaddate'] . "</td></tr>";
+                $row .= "<td>" . $thread['threaddate'] . "</td>";
+                $row .= "<td class ='center'>" . $thread['commentCount'] ."</td></tr>";
                 echo  $row;
             }
             echo "</tbody>";
