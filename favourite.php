@@ -9,8 +9,8 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recipe_favour/css/style1.css">
-    <link rel="shortcut icon" href="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" type="image/x-icon">
+    <link rel="stylesheet" href="dist/css/style1.css">
+    <link rel="shortcut icon" href="dist/img/VEGAN%20PROJECT%20LOGO.png" type="image/x-icon">
     <title>Search a recipes</title>
     <?php include ("Header.php"); ?>
 
@@ -18,9 +18,9 @@ session_start();
 
 <body>
 <div class="list_test">
-    <header class="header" style="background: wheat">
-        <img src="recipe_favour/img/VEGAN%20PROJECT%20LOGO.png" alt="logo" class="header__logo">
-        <form class="search" style="margin-left: 350px" >
+    <header class="header" >
+        <img src="dist/img/VEGAN%20PROJECT%20LOGO.png" alt="logo" class="header__logo">
+        <form class="search" >
             <input type="text" class="search__field" placeholder="Search a recipes...">
             <button class="btn search__btn">
                 <svg class="search__icon">
@@ -29,7 +29,7 @@ session_start();
                 <span>Search</span>
             </button>
         </form>
-        <h1 class="heading-2" style="margin-left: 400px"> Favourite List:</h1>
+        <h1 class="heading-2" > Favourite List:</h1>
         <div class="likes">
             <div class="likes__field">
                 <svg class="likes__icon">
@@ -71,7 +71,7 @@ session_start();
 
     </div>
 </div>
-<script type="text/javascript" src="recipe_favour/js/bundle.js"></script>
+<script type="text/javascript" src="dist/js/bundle.js"></script>
 
 </body>
 <footer>
