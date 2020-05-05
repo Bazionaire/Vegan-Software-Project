@@ -89,6 +89,9 @@ h3{
     border-top: solid 2pt #607d8b;
     padding: 10px;
 }
+.center {
+    text-align: center;
+}
 
 .forumbox a {
     text-decoration: none;
