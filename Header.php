@@ -32,15 +32,15 @@
             <li class="nav-item">
                 <a class="w3-button w3-hover-yellow" href="store.php" style="color: yellow">Store</a>
             </li>
-            <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Recipe</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--                <a class="w3-button w3-hover-yellow" href="recipe.php" style="color: yellow">Recipe</a>-->
+<!--            </li>-->
 <!--We need to decide-->
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="favourite.php" style="color: yellow">Nutritions</a>
+                <a class="w3-button w3-hover-yellow" href="favourite.php" style="color: yellow">Recipe & Shopping List</a>
             </li>
             <li class="nav-item">
-                <a class="w3-button w3-hover-yellow" href="#" style="color: yellow">News & Events</a>
+                <a class="w3-button w3-hover-yellow" href="news_and_event.php" style="color: yellow">News & Events</a>
             </li>
             <!-- <li class="nav-item">-->
             <?php if (!isset($_SESSION['user'])) {
