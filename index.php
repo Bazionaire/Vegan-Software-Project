@@ -56,7 +56,7 @@ session_start();
                  </div>
                 </div>
                 <div class="carousel-item " style="height: 700px;">
-                  <img src="Images/vegg.jpg" class="d-block w-100" alt="...">
+                  <img src="Images/OH71GW0.jpg" class="d-block w-100" alt="...">
                   <div class="carousel-caption w3-display-topleft" " >
                       <h1>VEGANISM IS A WAY OF LIFE</h1>
                       <h2>All life deserves respect, dignity, and compassion</h2>
