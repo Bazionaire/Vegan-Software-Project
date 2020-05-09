@@ -45,7 +45,7 @@
             <!-- <li class="nav-item">-->
             <?php if (!isset($_SESSION['user'])) {
                 echo "<li class='nav-item '>";
-                echo "<a class='w3-button w3-hover-yellow' style='color: yellow'>Sign In to access Forum</a>";
+                echo "<a class='w3-button w3-hover-yellow' style='color: yellow' href=\"login.php\" >Sign In to access Forum</a>";
                 echo "</li>";
             } else {
                 echo "<li class='nav-item '>";
